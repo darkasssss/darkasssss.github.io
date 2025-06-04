@@ -1,0 +1,311 @@
+{
+  "subject": "Kotlin",
+  "formative": "formative1",
+  "questions": [
+    {
+      "question": "The Float data type in Kotlin can have up to ____ significant bits.",
+      "options": ["24", "53", "16", "32"],
+      "correct": "D"
+    },
+    {
+      "question": "The symbol $ is used when creating string templates.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "What symbol is used to define a raw string?",
+      "options": ["a pair of double quotes", "a pair of single quotes", "three single quotes", "triple quotes"],
+      "correct": "D"
+    },
+    {
+      "question": "Analyze the code below:\n1 fun main(){\n2 for(i in 1..10){\n3 if(i.equals(5)){\n4 return\n5 }\n6 print(\"%i \")\n7 }\n8 }",
+      "options": [
+        "Code will execute and will print: 1 2 3 4",
+        "Error in line 3.",
+        "Code will execute and will print: 1 2 3 4 5 6 7 8 9 10",
+        "Code will execute and will print: 1 2 3 4 6 7 8 9 10"
+      ],
+      "correct": "A"
+    },
+    {
+      "question": "What is the output of the code below?\n1 fun main() {\n2 val x = \"String\"\n3 println(\"Another $x\")\n4 }",
+      "options": ["String Another", "Another String", "Another $x", "Will not display any output."],
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following shows the Kotlin built-in Boolean operations?",
+      "options": ["|, &&, !", "|, &, !", "|, &&, !!", "|, &, !!"],
+      "correct": "A"
+    },
+    {
+      "question": "Using if statement as an expression requires an else clause.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Characters are treated as numbers in Kotlin.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "The return jump expression terminates the nearest enclosing loop.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "What is the output of the code below?\n1 fun main() {\n2 val x = 12\n3 val y = 1.4\n4 val sum: Double = x + y\n5 println(\"The sum is: \" + sum)\n6 }",
+      "options": [
+        "Error, variable x and y does not have the same data type",
+        "The sum is: 13",
+        "The sum is: 13.4",
+        "Error, statements do not have semicolons"
+      ],
+      "correct": "C"
+    },
+    {
+      "question": "What function is used in removing leading whitespaces in a raw string?",
+      "options": ["trimWhitespace()", "trimMargin()", "trim()", "trimLead()"],
+      "correct": "B"
+    },
+    {
+      "question": "We can use template expressions in string by using ____ symbol followed by either an identifier or an expression delimited by curly braces.",
+      "options": ["^", "&", "@", "$"],
+      "correct": "D"
+    },
+    {
+      "question": "The if control structure in Kotlin is considered as an expression which means it is expected to return a value.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "String is a mutable data type.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "String templates can be used in raw strings.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "The Byte data type has a size of ____ bits.",
+      "options": ["4", "8", "32", "16"],
+      "correct": "B"
+    },
+    {
+      "question": "Just like Java, we also import classes, packages, or objects in Kotlin using the keyword include.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "Analyze the code below and determine its output:\n1 fun main() {\n2 val x = 5\n3 println(\"The value is: ${x + 2}.\")\n4 }",
+      "options": [
+        "The value is $7.",
+        "The value is: $(x + 2).",
+        "The value is: x + 2.",
+        "The value is: 7."
+      ],
+      "correct": "D"
+    },
+    {
+      "question": "This statement replaced the switch statement in other programming languages.",
+      "options": ["choice", "then", "select", "when"],
+      "correct": "D"
+    },
+    {
+      "question": "If you want to explicitly declare a variable with a Long data type, your have to append a suffix ______ to its initial value.",
+      "options": ["Long or long", "L or l", "LNG or Ing", "Lng or Ing"],
+      "correct": "B"
+    },
+    {
+      "question": "What symbol is used for String concatenation in Kotlin?",
+      "options": ["comma (, )", "plus (+ )", "ampersand ( & )", "period (. )"],
+      "correct": "B"
+    },
+    {
+      "question": "What jump expression terminates the nearest enclosing loop?",
+      "options": ["goto", "return", "break", "continue"],
+      "correct": "C"
+    },
+    {
+      "question": "We can put underscores in the initial values of numeric type variables, e.g. val x = 1_234.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "What will happen if the code below is executed?\n1 fun main() {\n2 val arr: IntArray = intArrayOf(6,3,5,9,2)\n3 for(i in arr.indices step 2){\n4 println(arr[1])\n5 }\n6 }",
+      "options": [
+        "Error in line 2, it is not the correct way of defining arrays.",
+        "Error in line 4, the for statement needs more arguments.",
+        "It will execute normally and prints: 6 5 2",
+        "It will execute normally and prints: 3 9"
+      ],
+      "correct": "D"
+    },
+    {
+      "question": "All variables initialized with a fractional number will infer the ____ data type.",
+      "options": ["Float", "Double", "Int", "Short"],
+      "correct": "B"
+    },
+    {
+      "question": "while and do..while loops are also available in Kotlin and are used the same way they are used in other programming languages.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Individual characters in a Sting-type value can be accessed by indexing operation.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "What is the output of the following code?\n1 fun main() {\n2 val output = \"\"\"\n3 | First Name: Joseph\n4 | Last Name: Calleja\n5 \"\"\",trimMargin()\n6 println(output)\n7 }",
+      "options": [
+        "|First Name: Joseph\n|Last Name: Calleja",
+        "Error, the code uses and unknown function, trimMargin()",
+        "**First Name: Joseph**\n**Last Name: Calleja**",
+        "Error, the code uses unknown symbols to delimit a string value."
+      ],
+      "correct": "A"
+    },
+    {
+      "question": "Analyze the code below:\n1 fun main() {\n2 for(i in 1..10){\n3 if(i.equals(5)){\n4 continue\n5 }\n6 print(\"%i \")\n7 }\n8 }",
+      "options": [
+        "Code will execute and will print: 1 2 3 4 5 6 7 8 9 10",
+        "Error in line 2.",
+        "Error in line 3.",
+        "Code will execute and will print: 1 2 3 4 6 7 8 9 10"
+      ],
+      "correct": "D"
+    },
+    {
+      "question": "The ______ control flow statement iterates through anything that provides an iterator.",
+      "options": ["for", "when", "if", "while"],
+      "correct": "A"
+    },
+    {
+      "question": "What is the range value of the Int data type?",
+      "options": [
+        "-2,147,483,647 to 2,147,483,648",
+        "-2,147,483,648 to 2,147,483,647",
+        "-2,147,483,647 to 2,147,483,647",
+        "-2,147,483,648 to 2,147,483,648"
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following statements will show the output: The value of x is: 15",
+      "options": [
+        "All the other choices are correct",
+        "fun main(){ val x = 15; println(\"The value of x is: ${x}\") }",
+        "fun main(){ val x = 15; println(\"The value of x is: \" + x) }",
+        "fun main(){ val x = 15; println(\"The value of x is: $x\") }"
+      ],
+      "correct": "A"
+    },
+    {
+      "question": "The Float data type in Kotlin can have up to ______ significant bits.",
+      "options": ["32", "53", "16", "24"],
+      "correct": "D"
+    },
+    {
+      "question": "What is the output of the code below?\n1 fun main() {\n2 val x = 12\n3 val y = 1.4\n4 val sum: Double = x + y\n5 println(\"The sum is: \" + sum)\n6 }",
+      "options": [
+        "Error, variable x and y does not have the same data type",
+        "The sum is: 13",
+        "The sum is: 13.4",
+        "Error, statements do not have semicolons"
+      ],
+      "correct": "C"
+    },
+    {
+      "question": "What is the output of the following code:\n1 fun main() {\n2 val x = 5\n3 val y = 2\n4 val result = x/y.toFloat()\n5 println(result)\n6 }",
+      "options": [
+        "Will not display any output",
+        "Error, data type of variables is not the same",
+        "2",
+        "2.5"
+      ],
+      "correct": "D"
+    },
+    {
+      "question": "How many numerical data types are there in Kotlin?",
+      "options": ["6", "3", "5", "4"],
+      "correct": "A"
+    },
+    {
+      "question": "All variables initialized with a numerical value will be inferred as ______ data type by default.",
+      "options": ["Byte", "Long", "Short", "Int"],
+      "correct": "D"
+    },
+    {
+      "question": "Boolean type values in Kotlin can only have true or false values.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "When iterating through a range of numbers using the for statement, we use the range expression which is represented by the symbol ______.",
+      "options": ["[ ]", "( )", "..", "..."],
+      "correct": "C"
+    },
+    {
+      "question": "Analyze the following code:\nfun main(){ val grade = 70; val remarks: String; remarks = if (grade>70){ \"Passed\" } else { \"Failed\" }; println(\"Grade is: $remarks\") }",
+      "options": [
+        "It will not run due to an error in the condition in the if statement.",
+        "It will run and will print: Grade is: Failed",
+        "It will run and will print: Grade is: Passed",
+        "It will run but there will be no output."
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "What keyword is used to declare a package?",
+      "options": ["package", "pckg", "pkg", "pack"],
+      "correct": "A"
+    },
+    {
+      "question": "You can use escape characters in a raw string.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "Raw strings can contain escape code characters.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "String templates can be used in raw strings.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "The when control structure can replace if..else...if chain when used without putting any argument.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "What is the output of the code below?\n1 fun main(){ \n2 val x = 5 \n3 val y = 2 \n4 val result = x/y \n5 println(result) \n6 }",
+      "options": ["2.5", "2", "Error, data type of variables is Int", "Will not display any output"],
+      "correct": "B"
+    },
+    {
+      "question": "Analyze the code below:\n1 fun main(){\n2 val age = 18\n3 when(age){\n4 in 0..180 -> println(\"Not a valid age.\")\n5 in 0..17 -> println(\"Still not valid to vote.\")\n6 else -> println(\"Can now vote.\")\n7 }\n8 }",
+      "options": [
+        "The program has an error in line 7, keyword else is not used in when statement.",
+        "The program will execute but will not print anything.",
+        "The program will execute, and prints Can now vote.",
+        "The program has an error in line 5, lin is not a valid statement."
+      ],
+      "correct": "C"
+    },
+    {
+      "question": "What is the data type of the variable declared below:\nval num = -42L",
+      "options": ["Int", "Short", "Long", "Byte"],
+      "correct": "C"
+    },
+    {
+      "question": "What keyword is used to declare immutable variables (constants) in Kotlin?",
+      "options": ["dec", "None of the other choices is correct.", "var", "val"],
+      "correct": "D"
+    }
+  ]
+}

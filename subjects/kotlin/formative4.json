@@ -1,0 +1,171 @@
+{
+  "subject": "Kotlin",
+  "formative": "formative4",
+  "questions": [
+    {
+      "question": "Sets store elements giving significance their order.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "What happens when the code below is executed? fun main() { var list = listOf(\"1\", \"2\", \"3\") list.add(\"4\") list.forEach( print(\"%it \") } }",
+      "options": [
+        "Error, add function is not a valid function for immutable lists.",
+        "Will execute and prints: 1 2 3 4",
+        "Error, adding elements is not allowed because the list is tagged with var instead of val.",
+        "Will execute and prints: 1 2 3"
+      ],
+      "correct": "A"
+    },
+    {
+      "question": "From what interface does Collection inherits its operations to go through its elements?",
+      "options": ["Set", "Iteratable", "Mutable", "List"],
+      "correct": "B"
+    },
+    {
+      "question": "Mutable collections must be tagged as var so that you can use its write operations.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "Reassigning mutable collections that are tagged as val will cause an exception.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "You can create a Collection that does not contain any element.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "What is the result of executing the following code? fun main() { val myList = listOfInteger(1, 2, 3, 4, 5) println(myList) }",
+      "options": [
+        "Error, there is no such function named listOfInteger().",
+        "Error, a list collection must be tagged with var.",
+        "Will execute and will display the structure of the list.",
+        "Will execute and will print: 1, 2, 3, 4, 5"
+      ],
+      "correct": "A"
+    },
+    {
+      "question": "What happens when the following code is executed? fun main() { var list = mutableListOf(\"1\", \"2\", \"3\") list.add(\"4\") println(list.elementAt(3)) }",
+      "options": [
+        "Will execute and prints: 3",
+        "Will execute and prints: 4",
+        "Will execute and prints: 1 2 3 4",
+        "Error, adding elements is not allowed because the list is tagged with var instead of val."
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "It is a set of key-value pairs.",
+      "options": ["Collection", "List", "Map", "Set"],
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following correctly declares a List Collection that stores Integer values, and you can add more elements after its declaration?",
+      "options": [
+        "val list = listOf(\"1\", \"2\", \"3\")",
+        "val list = mutableListOf(\"1\", \"2\", \"3\")",
+        "All of the other choices are correct.",
+        "var list = listOf(\"1\", \"2\", \"3\")"
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "The Collection interface inherits from the Iteratable interface.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "It is an unordered collection of unique items.",
+      "options": ["Collection", "List", "Set", "Map"],
+      "correct": "C"
+    },
+    {
+      "question": "Collections can be used as function parameters.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "It is a collection interface which provides operation for accessing collection elements.",
+      "options": ["accessor", "iterator", "read-only", "mutable"],
+      "correct": "B"
+    },
+    {
+      "question": "These are groups of a variable number of items that share significance to the problem being solved.",
+      "options": ["arrays", "collections", "objects", "variables"],
+      "correct": "B"
+    },
+    {
+      "question": "What happens when the following code is executed? fun main(){ val list = mutableListOf(\"1\", \"2\", \"3\") list.add(\"4\") list.forEach{ print(\"%it\") } }",
+      "options": [
+        "Will execute and prints: 1 2 3",
+        "Error, add function is not a valid function for mutable lists.",
+        "Will execute and prints: 1 2 3 4",
+        "Error, adding elements is not allowed because the list is tagged with val instead of var."
+      ],
+      "correct": "C"
+    },
+    {
+      "question": "What function is used when retrieving collection elements at a specific position?",
+      "options": ["valueAt()", "indexOf()", "valueOf()", "elementAt()"],
+      "correct": "D"
+    },
+    {
+      "question": "Which of the codes in the choices will execute?",
+      "options": [
+        "fun printList(myList: List<Int>) { myList.forEach( print(\"${t \"); } } fun main() { val list = listOf(\"1\", \"2\", \"3\") printList(list) }",
+        "fun printList(myList: List<Char>) { myList.forEach( print(\"%$it \"); } } fun main() { val list = listOf(\"1\", \"2\", \"3\") printList(list) }",
+        "fun printList(myList: List<string>) { myList.forEach( print(\"%$it \"); } } fun main() { val list = listOf(\"1\", \"2\", \"3\") printList(list) }",
+        "fun printList(myList: List<Unit>) { myList.forEach( print(\"%$it \"); } } fun main() { val list = listOf(\"1\", \"2\", \"3\") printList(list) }"
+      ],
+      "correct": "C"
+    },
+    {
+      "question": "Elements stored in a List does not follow a specified order.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "Collections can be created without explicitly defining its data type.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "It is an interface which provides not only operations to access collection elements but also write operations as well.",
+      "options": ["read-only", "accessor", "mutable", "iterator"],
+      "correct": "C"
+    },
+    {
+      "question": "Collections in Kotlin can store items of different data types.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "What happens when the code below is executed? fun printList(myList: List<String>(); myList.forEach{ print(\"$it \") } } fun main(){ val list = listOf(\"1\", \"2\", \"3\") printList(list) }",
+      "options": [
+        "Will execute and will print: 1 2 3",
+        "Error, passing a list to a function is not allowed.",
+        "Will execute and will print: \"1\", \"2\", \"3\"",
+        "Will execute but will not print anything."
+      ],
+      "correct": "A"
+    },
+    {
+      "question": "It is an ordered collection with access to elements by indices.",
+      "options": ["Collection", "List", "Set", "Map"],
+      "correct": "B"
+    },
+    {
+      "question": "What is the result of executing the code below? fun main() { val myList = listOf(1, 2, 3, 4, 5) myList.forEach{ print(\"$it \") } }",
+      "options": [
+        "Error, forEach is not a valid keyword.",
+        "Will execute and will print the structure of the list.",
+        "Error, there is a compile error in line 4.",
+        "Will execute and will print: 1 2 3 4 5"
+      ],
+      "correct": "D"
+    }
+  ]
+}

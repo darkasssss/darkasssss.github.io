@@ -1,0 +1,271 @@
+{
+  "subject": "Kotlin",
+  "formative": "formative2",
+  "questions": [
+    {
+      "question": "Values in a mutable property can be changed during program runtime.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "You can declare a class without a body in Kotlin.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following class declarations is correct if it has access modifiers, constructors, and annotations?",
+      "options": [
+        "class Shape public @Default constructor(side: Int) {/* . . . */}",
+        "class Shape public @Default (side: Int) {/* . . . */}",
+        "public class Shape @Default constructor(side: Int) {/* . . . */}",
+        "public class Shape @Default (side: Int) {/* . . . */}"
+      ],
+      "correct": "A"
+    },
+    {
+      "question": "What keyword is used to define a function?",
+      "options": ["function", "fx", "fun", "func"],
+      "correct": "C"
+    },
+    {
+      "question": "We can define an overridable function inside a final class.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following choices correctly declares an inheritable class named Father and a child class named Child which inherits from the Father class?",
+      "options": [
+        "open class Father()\nclass Child(): Father()",
+        "inherit class Father()\nclass Child(): Father()",
+        "enable class Father()\nclass Child(): Father()",
+        "derive class Father()\nclass Child(): Father()"
+      ],
+      "correct": "A"
+    },
+    {
+      "question": "Just like abstract classes, interfaces can also store states.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "If a class inherits multiple implementations of the same member from its immediate superclasses, it must override this member and provide its own implementation.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Interfaces in Kotlin can contain declarations of abstract methods, as well as method implementations.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "The primary constructor of a class is part of the class header.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following statements is true?",
+      "options": [
+        "When you create a new instance of a child (derived) class, the child (derived) class is initialized first before the initialization of the parent (base) class.",
+        "When you create a new instance of a child (derived) class, the parent (base) class is initialized first before the initialization of the child (derived) class.",
+        "When the constructors in the parent (base) class is executed, the properties in the child (derived) class are also initialized.",
+        "Constructors in the parent (base) class in executed after the execution of the constructors in the child (derived) class."
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "Functions, properties, constructors are some of the possible members of a class.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "What keyword is used when a child (derived) class want to access or call function or properties of its parent (base)?",
+      "options": ["super", "get", "base", "parent"],
+      "correct": "A"
+    },
+    {
+      "question": "We use the keyword ______ to declare a read-only property.",
+      "options": ["mute", "init", "val", "var"],
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following correctly creates an instance of a class named People?",
+      "options": [
+        "val student = new People()",
+        "val student = People",
+        "val student = People ( )",
+        "val student = new People"
+      ],
+      "correct": "C"
+    },
+    {
+      "question": "In Kotlin, all classes have a common superclass called Any.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following correctly inherits from the base case as well as override its function?",
+      "options": [
+        "class Parent{ open fun function(){ //Some codes } }\nclass Child(): Parent(){ override fun function(){ //Some codes } }",
+        "open class Parent{ open fun function(){ //Some codes } }\nclass Child(): Parent(){ fun function(){ //Some codes } }",
+        "open class Parent{ fun function(){ //Some codes } }\nclass Child(): Parent(){ override fun function(){ //Some codes } }",
+        "open class Parent{ open fun function(){ //Some codes } }\nclass Child(): Parent(){ override fun function(){ //Some codes } }"
+      ],
+      "correct": "D"
+    },
+    {
+      "question": "You cannot declare properties in interfaces.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "By default, all class in Kotlin are final, which means they cannot be inherited.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "We use the keyword _____ to declare a mutable property.",
+      "options": ["init", "var", "val", "mute"],
+      "correct": "B"
+    },
+    {
+      "question": "Properties declared using the val keyword have both accessor (get) and mutator (set).",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "Properties declared with the var keyword can be overridden by declaring them using the val keyword.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "All classes will implicitly inherit from a default super class called Super.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "What symbol is used for annotations?",
+      "options": ["@", "#", "$", "&"],
+      "correct": "A"
+    },
+    {
+      "question": "To create a new instance of a class, we use the keyword new.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "What are the three methods of the superclass Any?",
+      "options": [
+        "equals(), hashCode(), toString()",
+        "equalTo(), hasCodes(), toString()",
+        "equalTo(), hashCode(), toString()",
+        "equals(), hasCodes(), toString()"
+      ],
+      "correct": "A"
+    },
+    {
+      "question": "You can also override properties using the override modifier.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is correct regarding abstract classes?",
+      "options": [
+        "Members in the abstract class needs to be annotated with the keyword open.",
+        "Abstract classes and its members are inheritable even without using open.",
+        "Abstract class cannot be used as parent (base) class.",
+        "Abstract class cannot inherit other classes."
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "What keyword is used to declare an interface?",
+      "options": ["Int", "Interface", "interface", "int"],
+      "correct": "C"
+    },
+    {
+      "question": "To make classes inheritable, we use the keyword inherit.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "In Kotlin, class can have many constructors.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "To denote the supertype from which the inherited implementation is taken, we use the keyword super qualified by the supertype name enclosed with _____ .",
+      "options": ["curly braces", "parenthesis", "angle brackets", "square brackets"],
+      "correct": "C"
+    },
+    {
+      "question": "Classes in Kotlin cannot be inherited by default because they are final, what keyword is used to make classes inheritable?",
+      "options": ["open", "derive", "inherit", "enable"],
+      "correct": "A"
+    },
+    {
+      "question": "If a child (derived) class has a primary constructor, the parent (base) class must be initialized using the parameters of the primary constructor.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "An abstract member of an abstract class does not have implementation in its class.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "What is the name of the common superclass of all classes in Kotlin?",
+      "options": ["Any", "Superclass", "Anything", "Super"],
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following statements is true about class constructor?",
+      "options": [
+        "Primary constructors are defined inside the body of a class.",
+        "A class can only have once constructor.",
+        "Classes can have one primary constructor and many secondary constructors.",
+        "A class can be declared without a body."
+      ],
+      "correct": "C"
+    },
+    {
+      "question": "When defining constructors, the constructor keyword is optional.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Primary constructors are defined inside the body of a class.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following statements about inheritance and overriding is correct?",
+      "options": [
+        "Functions inside a child (derived) class marked with the override keyword are final.",
+        "Functions inside an inheritable class are also overridable by default.",
+        "Functions in a final class are also final even if you mark them with the open keyword.",
+        "You can override a function inside a parent (base) class that is final."
+      ],
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following statements is NOT true about constructors?",
+      "options": [
+        "The primary constructor is placed within the body of a class.",
+        "The primary constructor is part of the class header.",
+        "The constructor keyword can be omitted as long as the class declaration does not use annotations.",
+        "Primary constructors cannot contain codes, therefore, all initializations must be placed in initializer blocks."
+      ],
+      "correct": "A"
+    },
+    {
+      "question": "Functions in a class are also final and cannot be overridden unless explicitly defined it as overridable.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Initializer blocks starts with the keyword ______.",
+      "options": ["initial", "ini", "initialize", "init"],
+      "correct": "D"
+    }
+  ]
+}

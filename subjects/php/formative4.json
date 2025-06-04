@@ -1,0 +1,201 @@
+{
+  "subject": "PHP",
+  "formative": "formative4",
+  "questions": [
+    {
+      "question": "$x = rand(5,10);echo $x;\nWhat is the maximum value of the output?",
+      "options": ["Error", "5", "10", "0"],
+      "correct": "C"
+    },
+    {
+      "question": "$val=356342.783\necho number_format($val,2,'.','');\nwhat is the output?",
+      "options": ["356342.783", "356,342.78", "356,342.783", "356342.78"],
+      "correct": "D"
+    },
+    {
+      "question": "Most of the developers used include functions for their",
+      "options": ["Titles", "Body", "Content", "Footer"],
+      "correct": "C"
+    },
+    {
+      "question": "Format character for a full textual representation of the month, such as January or March",
+      "options": ["T", "M", "J", "F"],
+      "correct": "F"
+    },
+    {
+      "question": "_______ return the value length of a string",
+      "options": ["stringlen", "lenstr", "lengthstring", "strlen"],
+      "correct": "D"
+    },
+    {
+      "question": "Format character for the day of the year (starting from 0)",
+      "options": ["x", "d", "y", "z"],
+      "correct": "D"
+    },
+    {
+      "question": "Syntax for explode",
+      "options": ["array explode ( string $delimiter , string $string [, int $limit ] )", "array explode ( string $delimiter , string $string [, string $limit ] )", "array explode ( int $delimiter , string $string [, int $limit ] )", "array explode ( int $delimiter , int $string [, int $limit ] )"],
+      "correct": "A"
+    },
+    {
+      "question": "_______ strip HTML and PHP tags from a string.",
+      "options": ["tags_search()", "strip_tags()", "tags_get()", "find_tags()"],
+      "correct": "B"
+    },
+    {
+      "question": "_______ reverse a given string",
+      "options": ["revstring", "revstr", "stringrev", "strrev"],
+      "correct": "D"
+    },
+    {
+      "question": "Syntax for floor",
+      "options": ["flr()", "flor()", "floor()", "fl()"],
+      "correct": "C"
+    },
+    {
+      "question": "Split a string by string",
+      "options": ["Explode", "Destroy", "Unset", "Implode"],
+      "correct": "A"
+    },
+    {
+      "question": "Make a string's first character uppercase",
+      "options": ["ucfirst()", "upperfs()", "firstcu()", "fsupper()"],
+      "correct": "A"
+    },
+    {
+      "question": "Format character for a textual representation of the day, three letters",
+      "options": ["day", "d", "DAY", "D"],
+      "correct": "D"
+    },
+    {
+      "question": "_______ converts the first character of each word in a string to uppercase",
+      "options": ["wordsuc()", "cwords()", "uwords()", "ucwords()"],
+      "correct": "D"
+    },
+    {
+      "question": "_______ converts string to lowercase",
+      "options": ["lowerstr", "stringtolow", "strlow", "strtolower"],
+      "correct": "D"
+    },
+    {
+      "question": "Syntax for include",
+      "options": ["include(filename.inc);", "include(\"filename.inc\");", "filename(\"include\");", "include(filename.php);"],
+      "correct": "B"
+    },
+    {
+      "question": "_______ string white spaces or other characters from the beginning of a string",
+      "options": ["ctrim()", "ltrim()", "btrim()", "strim()"],
+      "correct": "B"
+    },
+    {
+      "question": "Format character for numeric representation of a month, without leading zeros",
+      "options": ["r", "m", "n", "z"],
+      "correct": "C"
+    },
+    {
+      "question": "Format character for a textual representation of the day, three letters",
+      "options": ["day", "DAY", "D", "d"],
+      "correct": "C"
+    },
+    {
+      "question": "You can separate your PHP file and embed it to your html by using PHP include functions.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "_______ returns part of a given string",
+      "options": ["substr", "strsub", "partstr", "strpart"],
+      "correct": "A"
+    },
+    {
+      "question": "Syntax for minimum value",
+      "options": ["mixed small(mixed $value)", "mixed min(mixed $value)", "mixed low(mixed $value)", "mixed tiny(mixed $value)"],
+      "correct": "B"
+    },
+    {
+      "question": "Format character for a full number representation of a year, 4 digits",
+      "options": ["r", "Y", "y", "c"],
+      "correct": "B"
+    },
+    {
+      "question": "format character for day of the month, 2 digits with leading zeros",
+      "options": ["D", "d", "DA", "Da"],
+      "correct": "B"
+    },
+    {
+      "question": "Same as require function except it includes the file only once.",
+      "options": ["require", "include_once", "include", "require_once"],
+      "correct": "D"
+    },
+    {
+      "question": "syntax for length of a string",
+      "options": ["int lengthstring (string $string)", "int stringlen (string $string)", "int strlen (string $string)", "int lenstr (string $string)"],
+      "correct": "C"
+    },
+    {
+      "question": "$x = rand(5,10);echo $x;\nWhat is the minimum value of the output?",
+      "options": ["0", "10", "Error", "5"],
+      "correct": "D"
+    },
+    {
+      "question": "Format character for numeric representation of the day of the week",
+      "options": ["r", "n", "d", "w"],
+      "correct": "D"
+    },
+    {
+      "question": "_______ used to declare constants",
+      "options": ["derive", "define", "function", "set"],
+      "correct": "B"
+    },
+    {
+      "question": "_______ can only be assigned a scalar value, like a string or a number.",
+      "options": ["Contrast", "Construct", "Define", "Constant"],
+      "correct": "D"
+    },
+    {
+      "question": "_______ returns the next highest integer by rounding the value upwards",
+      "options": ["ceil()", "top()", "up()", "high()"],
+      "correct": "A"
+    },
+    {
+      "question": "Syntax to strip HTML and PHP tags from a string.",
+      "options": ["string tags_get(string $str[, string $allowable_tags ])", "string find_tags(string $str[, string $allowable_tags ])", "string strip_tags(string $str [, string $allowable_tags ])", "string tags_search(string $str[, string $allowable_tags ])"],
+      "correct": "C"
+    },
+    {
+      "question": "_______ strip white spaces or other characters form the end of a string.",
+      "options": ["rtrim()", "btrim()", "strim()", "ctrim()"],
+      "correct": "A"
+    },
+    {
+      "question": "_______ stripped white spaces or other characters from the beginning and end of a string.",
+      "options": ["strip()", "get()", "trim()", "set()"],
+      "correct": "C"
+    },
+    {
+      "question": "Format character for a full textual representation of the day of the week",
+      "options": ["w", "l", "t", "d"],
+      "correct": "B"
+    },
+    {
+      "question": "Number format can include thousand separator",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "syntax for random",
+      "options": ["int random(void)", "int rand(void)", "int rndm(void)", "int ran(void)"],
+      "correct": "B"
+    },
+    {
+      "question": "String number_format(\nfloat $number,\nint _____;\n)",
+      "options": ["$decimals", "$dec_points", "$thousands_sep", "$points"],
+      "correct": "A"
+    },
+    {
+      "question": "syntax to transform a string to upper case",
+      "options": ["string strupper (string $str)", "string strtoupper (string $str)", "string stringtoupper (string $str)", "string upperstr (string $str)"],
+      "correct": "B"
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "subject": "PHP",
+  "formative": "formative1",
+  "questions": [
+    {
+      "question": "PHP 5 vastly improved",
+      "options": ["Object Oriented capabilities", "Designing", "Scripting", "Coding"],
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is not Linux OS",
+      "options": ["Suse", "Ubuntu", "Vista", "Debian"],
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following not a internet browser?",
+      "options": ["Internet Explorer", "Safari", "Windows Media", "Opera"],
+      "correct": "C"
+    },
+    {
+      "question": "Open tag for PHP scripts",
+      "options": ["<?", "=>", "?>", "<="],
+      "correct": "A"
+    },
+    {
+      "question": "You need a subscription before you use the PHP",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "returns the type of the variable. Possible return values are integer, double, boolean, string, array, object, resource, unknown types.",
+      "options": ["typeset()", "typeget()", "settype()", "gettype()"],
+      "correct": "D"
+    },
+    {
+      "question": "Statement terminator",
+      "options": ["\"", ";", "'", "<"],
+      "correct": "B"
+    },
+    {
+      "question": "New language features for PHP 6",
+      "options": ["Multiple looping", "Double looping", "Single looping", "Foreach looping"],
+      "correct": "D"
+    },
+    {
+      "question": "In PHP 5 how many percent on all Apache module",
+      "options": ["45", "64", "54", "34"],
+      "correct": "B"
+    },
+    {
+      "question": "Much of the PHP syntax were derive from C programming Language.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "$num = 10; Valid or invalid?",
+      "options": ["Valid", "Invalid"],
+      "correct": "A"
+    },
+    {
+      "question": "In what year PHP 2.0 released",
+      "options": ["1997", "1999", "1998", "2000"],
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is not a web server?",
+      "options": ["MyServ", "Apache", "IIS7", "Nginx"],
+      "correct": "A"
+    },
+    {
+      "question": "is the generic name assigned to any data sharing a common set of characteristics.",
+      "options": ["Array", "Variables", "Datatypes", "Output"],
+      "correct": "C"
+    },
+    {
+      "question": "PHP is a embedded language that is commonly embedded on",
+      "options": ["HTML", "SQL", "CSS", "JavaScript"],
+      "correct": "A"
+    },
+    {
+      "question": "Oracle is example of database that PHP can use",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "PHP is a free of charge",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "What is OS?",
+      "options": ["Operation System", "Operating System", "Outgoing System", "Out System"],
+      "correct": "B"
+    },
+    {
+      "question": "You need a web browser to open php files",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "In what year PHP 1.0 released",
+      "options": ["1994/1995", "1995/1996", "1996/1997", "1997/1998"],
+      "correct": "A"
+    },
+    {
+      "question": "PHP can use a database",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Who develops PHP?",
+      "options": ["Rasmus Lefdor", "Ramus Lerdorf", "Ramus Lerdof", "Rasmus Lerdorf"],
+      "correct": "D"
+    },
+    {
+      "question": "PHP makes the most popular scripting language with more than one million user base by",
+      "options": ["Netcraff", "Netcafe", "Netscape", "Netstake"],
+      "correct": "A"
+    },
+    {
+      "question": "What is the default location of XAMPP?",
+      "options": ["E:\\", "C:\\", "F:\\", "D:\\"],
+      "correct": "B"
+    },
+    {
+      "question": "Closing tag for PHP scripts",
+      "options": ["?>", "<?", "=>", "<="],
+      "correct": "A"
+    },
+    {
+      "question": "PHP means",
+      "options": ["Personal High Packets", "Personal High Page", "Personal Home Packets", "Personal Home Page"],
+      "correct": "D"
+    },
+    {
+      "question": "First character of variable can be '_' or a letter.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Capable of containing a single item of information (Boolean, Integer, Float (float, double or real numbers), String)",
+      "options": ["Scalar datatypes", "Modular datatypes", "Single datatypes", "Compound datatypes"],
+      "correct": "A"
+    },
+    {
+      "question": "How many domains installed in PHP 5",
+      "options": ["15 million", "12 million", "19 million", "10 million"],
+      "correct": "A"
+    },
+    {
+      "question": "PHP is based on",
+      "options": ["C#", "Java", "Perl", "C"],
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following is not Windows OS",
+      "options": ["Vista", "XP", "2000", "Cheetah"],
+      "correct": "D"
+    },
+    {
+      "question": "Strings inside the ' and ' are interpreted as literal strings.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "PHP can use in Linux",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "PHP can run only in Linux OS",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "Asp style tag",
+      "options": ["<(…)>", "<?...?>", "<%...%>", "</ …/>"],
+      "correct": "C"
+    },
+    {
+      "question": "Term used to combine two or more different strings",
+      "options": ["Concatenate", "Combine", "Concreate", "Plus"],
+      "correct": "A"
+    },
+    {
+      "question": "Variables are like a",
+      "options": ["Container", "Operator", "Symbol", "Value"],
+      "correct": "A"
+    },
+    {
+      "question": "PHP can run only in Windows OS",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "_name is a valid variable",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "PHP created 1994/1995 to know how many visitors were reading his online resume based on PERL/CGI script",
+      "options": ["JavaScript page", "CSS page", "HTML page", "Presented ads character corresponding to that ASCII value"],
+      "correct": "C"
+    },
+    {
+      "question": "Presented ads character corresponding to that ASCII value",
+      "options": ["%a", "%c", "%ch", "%as"],
+      "correct": "B"
+    },
+    {
+      "question": "PHP can create in code editors",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "<?php Echo 'Welcome to PHP'; ?> What is the output",
+      "options": ["Welcome to php", "\"welcome to php\"", "'welcome to php'", "Welcome to PHP"],
+      "correct": "D"
+    },
+    {
+      "question": "allow for multiple items of the same type to be aggregated under a single representative entity. (Array and Objects)",
+      "options": ["Scalar datatypes", "Modular datatypes", "Single datatypes", "Compound datatypes"],
+      "correct": "D"
+    },
+    {
+      "question": "What is the url is use to open your created php files",
+      "options": ["mydrive", "google", "localhost", "yahoo"],
+      "correct": "C"
+    },
+    {
+      "question": "Presented as a floating point number",
+      "options": ["%fn", "%p", "%fp", "%f"],
+      "correct": "D"
+    },
+    {
+      "question": "is a function also use for outputting strings.",
+      "options": ["Send", "Output", "Out", "Print"],
+      "correct": "D"
+    },
+    {
+      "question": "PHP can run only in Mac OS",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "Standard tag",
+      "options": ["<%php…%>", "<%...%>", "<?... ?>", "<?php…?>"],
+      "correct": "D"
+    },
+    {
+      "question": "variable can only contain ________characters and underscore (a-z,A-Z,0-9,_).",
+      "options": ["numeric", "alpha-numeric", "letters", "special characters"],
+      "correct": "B"
+    },
+    {
+      "question": "How many domain PHP installed on May 22, 2000",
+      "options": ["4.6 million", "3.6 million", "2.6 million", "1.6 million"],
+      "correct": "C"
+    },
+    {
+      "question": "Software used to run PHP Scripts",
+      "options": ["Mspaint", "XAMPP", "Netbeans", "Notepad++"],
+      "correct": "B"
+    },
+    {
+      "question": "Extension name for php files",
+      "options": [".hp", ".ph", ".php", ".p"],
+      "correct": "C"
+    },
+    {
+      "question": "One of the Core developers of php 4.0",
+      "options": ["Andi Gunman", "Andi Guman", "Andi Gusman", "Andi Gutmans"],
+      "correct": "D"
+    },
+    {
+      "question": "In what year PHP 5 released",
+      "options": ["2003", "2004", "2001", "2002"],
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is not a code editor?",
+      "options": ["Mspaint", "Dreamweaver", "Netbeans", "Notepad++"],
+      "correct": "A"
+    },
+    {
+      "question": "Comments can be put anywhere in the code",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Try/catch exception handling introduce in what version of PHP",
+      "options": ["PHP4", "PHP2", "PHP3", "PHP5"],
+      "correct": "D"
+    },
+    {
+      "question": "All php files must be save on htdocs folder",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "PHP is a loosely type language (no explicitly create, typecast, or destroy a variable)",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Presented as a binary number",
+      "options": ["%n", "%b", "%y", "%bn"],
+      "correct": "B"
+    },
+    {
+      "question": "Setting the identifier for a variable must follow some rules.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is not part of Web Architecture?",
+      "options": ["Database", "USB connection", "Page Request", "Internet"],
+      "correct": "B"
+    },
+    {
+      "question": "Variable might contain a string, numbers, arrays and objects.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "converts a given variable to a specific type.",
+      "options": ["typeget()", "gettype()", "settype()", "typeset()"],
+      "correct": "C"
+    },
+    {
+      "question": "In PHP 3.0 ________ users were using PHP to enhance their Web pages",
+      "options": ["70,000", "80,000", "50,000", "60,000"],
+      "correct": "A"
+    },
+    {
+      "question": "All php scripts must enclosed with",
+      "options": ["<//>", "<??>", "<::>", "<{}>"],
+      "correct": "B"
+    },
+    {
+      "question": "PHP contains More libraries and thousands of functions",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Symbol to use value in string",
+      "options": ["++", "–", "''", "**"],
+      "correct": "C"
+    },
+    {
+      "question": "Symbol for single line comment",
+      "options": ["//", ">>", "<<", ",,"],
+      "correct": "A"
+    },
+    {
+      "question": "Script tag",
+      "options": ["</sct>", "</scr>", "<scrpt>", "</script>"],
+      "correct": "D"
+    },
+    {
+      "question": "In what year PHP 3.0 released",
+      "options": ["2000", "1998", "1999", "2001"],
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is not Mac OS",
+      "options": ["Jaguar", "Cheetah", "Giraffe", "Puma"],
+      "correct": "C"
+    },
+    {
+      "question": "Concatenation-assignment symbol",
+      "options": ["==.", ".=", ".", ".."],
+      "correct": "B"
+    },
+    {
+      "question": "Operator for assignment operators",
+      "options": ["–", "+", ">", "="],
+      "correct": "D"
+    },
+    {
+      "question": "a server-side scripting language that runs its application on a Web server.",
+      "options": ["PHP", "Java", "JavaScript", "C++"],
+      "correct": "A"
+    },
+    {
+      "question": "Symbol used for multi-line comment",
+      "options": ["/::/", "/??/", "/\"\"/", "/**/"],
+      "correct": "D"
+    },
+    {
+      "question": "How many types of comment php have?",
+      "options": ["5", "4", "3", "2"],
+      "correct": "D"
+    },
+    {
+      "question": "$val=\"abc\".\"def\" valid or invalid?",
+      "options": ["Valid", "Invalid"],
+      "correct": "A"
+    }
+  ]
+}

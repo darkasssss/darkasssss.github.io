@@ -1,0 +1,406 @@
+{
+  "subject": "PHP",
+  "formative": "formative3",
+  "questions": [
+    {
+      "question": "function disp(){\nfunction disp2(){\necho \"hello\";\n}\n}\ndisp();\ndisp2();\nWhat is the output?",
+      "options": ["error", "hello", "disp", "blank"],
+      "correct": "A"
+    },
+    {
+      "question": "You can use only 10 for Array elements",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "_______ function is used to print the array structure.",
+      "options": ["print_f", "print_r", "print_a", "print_s"],
+      "correct": "B"
+    },
+    {
+      "question": "You can pass values to a function and you can ask functions to return a value.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "_______ is a group of PHP statements that performs a specific task. Functions are designed to allow you to reuse the same code in different locations.",
+      "options": ["Variables", "Arrays", "Operators", "Functions"],
+      "correct": "D"
+    },
+    {
+      "question": "_______ is a statement used to iterate or loop through the element in an array.",
+      "options": ["everyone()", "foreach()", "seteach()", "everyeach()"],
+      "correct": "B"
+    },
+    {
+      "question": "var_dump function is same as print_r function except it adds additional information about the data of each element.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "You use functions in different ways.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "PHP array does need to declare how many elements that the array variable have.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "_______ is used to aggregate a series of similar items together, arranging and dereferencing them in some specific way.",
+      "options": ["Variable", "Function", "Index", "Array"],
+      "correct": "D"
+    },
+    {
+      "question": "Function can have a return value",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "A function that is declared inside a function is said to be hidden.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "PHP has a built-in function to perform operations",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Sorts by a function",
+      "options": ["krsort($array)", "kusort($array)", "ksort($array)", "usort($array)"],
+      "correct": "D"
+    },
+    {
+      "question": "Functions can only have 1 parameter",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "ksort() and krsort() used to sort elements by values.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "function disp(){\nfunction disp2(){\necho \"hello\";\n}\n}\ndisp2();\nWhat is the output?",
+      "options": ["blank", "disp", "hello", "error"],
+      "correct": "D"
+    },
+    {
+      "question": "_______ prints additional information about the size and type of the values it discovers",
+      "options": ["var_add()", "var_size()", "var_info()", "var_dump()"],
+      "correct": "D"
+    },
+    {
+      "question": "asort(), ksort(), arsort(), and krsort() maintains its reference for each values.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Array index is also known as Array Keys.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "foreach($arr as ______)",
+      "options": ["$value", "val$", "value$", "val"],
+      "correct": "A"
+    },
+    {
+      "question": "Function count($val){\nstatic $c = 0;\n$c += $val;\necho $c;\n}\nCount(4);\nCount(3);\nWhat is the output of the code?",
+      "options": ["7", "43", "47", "Error"],
+      "correct": "A"
+    },
+    {
+      "question": "foreach($arr as ___ => $value){\n//do something\n}",
+      "options": ["$var", "$key", "$get", "$set"],
+      "correct": "B"
+    },
+    {
+      "question": "We use static keyword to declare a variable inside a function that will act as accumulator variable this will let the program remember the last value of the variable that was used.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Sorts by value in reverse order; assign new number as the keys",
+      "options": ["asort($array)", "sort($array)", "rsort($array)", "arsort($array)"],
+      "correct": "C"
+    },
+    {
+      "question": "$g = 200;\nfunction a(){echo \"5\";}\nfunction b(){echo \"4\";}\na();\nwhat is the output of the code?",
+      "options": ["5", "200", "A", "4"],
+      "correct": "A"
+    },
+    {
+      "question": "PHP array does not need to declare how many elements that the array variable have.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Function can only do something without passing values.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "Array can be used as ordinary array same as in C and C++ arrays.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "_______ references a corresponding value.",
+      "options": ["Array setting", "Array collection", "Array index", "Array number"],
+      "correct": "C"
+    },
+    {
+      "question": "Sorts by value; keeps the same key",
+      "options": ["rsort($array)", "asort($array)", "sort($array)", "arsort($array)"],
+      "correct": "B"
+    },
+    {
+      "question": "Functions is a group of PHP statements that performs a specific task.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "_______ functions that are built-in into PHP to perform some standard operations",
+      "options": ["User defined functions", "Program functions", "User function", "Predefined functions"],
+      "correct": "D"
+    },
+    {
+      "question": "Each member of the array index references a corresponding value and can be a simple numerical reference to the value's position in the series, or it could have some direct correlation to the value.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "_______ functions that are provided by the user of the program.",
+      "options": ["Predefined function", "Program function", "User function", "User defined function"],
+      "correct": "D"
+    },
+    {
+      "question": "function a($a,$b){\nreturn $a+$b;\n}\necho a(6,5);\nwhat is the value of $a?",
+      "options": ["Error", "6", "11", "5"],
+      "correct": "B"
+    },
+    {
+      "question": "_______ is a group of PHP statements that performs a specific task. Functions are designed to allow you to reuse the same code in different locations.",
+      "options": ["Arrays", "Variables", "Functions", "Operators"],
+      "correct": "C"
+    },
+    {
+      "question": "Sorts by key",
+      "options": ["kusort($array)", "ksort($array)", "usort($array)", "krsort($array)"],
+      "correct": "B"
+    },
+    {
+      "question": "You can create a function inside of a function",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "You can insert CSS code inside of a function",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "Array index in PHP can be also called",
+      "options": ["Array keys", "Array set", "Array storage", "Array number"],
+      "correct": "A"
+    },
+    {
+      "question": "_______ is one that declared outside a function and is available to all parts of the program.",
+      "options": ["Global variables", "Local variables", "Static variables", "Dynamic variables"],
+      "correct": "A"
+    },
+    {
+      "question": "$g = 200;\nfunction a(){echo \"5\";}\nfunction b(){echo \"4\";}\nb();\nwhat is the output of the code?",
+      "options": ["5", "Error", "4", "200"],
+      "correct": "C"
+    },
+    {
+      "question": "Functions are designed to allow you to reuse the same code in different locations.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "$t = 100;\nfunction one(){\necho \"1000\";\n}\none();\nwhat is the value of the $t after execute the code?",
+      "options": ["Error", "100", "1000", "1"],
+      "correct": "B"
+    },
+    {
+      "question": "$num=array(1,2,3,4,5);\nforeach(num as $val){\necho $val;\n}\nCheck the code if valid or invalid?",
+      "options": ["Valid", "Invalid ($num)"],
+      "correct": "B"
+    },
+    {
+      "question": "$mo = array(\"jan\",\"feb\",\"mar\");\necho \"<pre>\";\nprint_r ($mo);\necho \"</pre>\";\nCheck the code if valid or invalid?",
+      "options": ["Valid", "Invalid"],
+      "correct": "A"
+    },
+    {
+      "question": "$fruit = array(\"orange\",\"apple\",\"grape\",\"banana\");\nWhat is the value of index 2?",
+      "options": ["grape", "orange", "banana", "apple"],
+      "correct": "A"
+    },
+    {
+      "question": "Functions are limited to 1 per code only",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "_______ is declared inside a function and is only available within the function in which it is declared.",
+      "options": ["Static variables", "Dynamic variables", "Local variables", "Global variables"],
+      "correct": "C"
+    },
+    {
+      "question": "sort() and rsort() does not maintain its index reference for each values.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "You can create your own function inside of a php code",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Sorts by value; assign new numbers as the keys",
+      "options": ["asort($array)", "arsort($array)", "rsort($array)", "sort($array)"],
+      "correct": "D"
+    },
+    {
+      "question": "Functions can be user defined generally defined by the user of the program and predefined that are build in using libraries.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "$f = array(\n'102' => \"red\",\n'101' => \"blue\",\n'100' => \"yellow\");\nkrsort($f);\nprint_r($f);\nWhat is the output of the code?",
+      "options": ["Array ( [102] => yellow [101] => blue [100] => red )", "Array ( [100] => yellow [101] => blue [102] => red )", "Array ( [100] => red [101] => blue [102] => yellow )", "Array ( [102] => red [101] => blue [100] => yellow )"],
+      "correct": "D"
+    },
+    {
+      "question": "$s = \"variable\";\nfunction f(){\necho \"function called \";\necho \"$s\";\n}\nf();\nwhat is the output of the code?",
+      "options": ["function called", "function called undefined variable: s", "function called variable", "function variable"],
+      "correct": "A"
+    },
+    {
+      "question": "Array is used to aggregate a series of similar items together.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Local Variables is one that declared outside a function and is available to all parts of the program.",
+      "options": ["True", "False (Global Variables)"],
+      "correct": "B"
+    },
+    {
+      "question": "PHP array does need to declare how many elements that the array variable have.",
+      "options": ["True", "False (does not)"],
+      "correct": "B"
+    },
+    {
+      "question": "Array can be used as ordinary array same as in",
+      "options": ["Java", "C and C++", "Ruby", "Python"],
+      "correct": "B"
+    },
+    {
+      "question": "$g = 200;\nfunction a(){echo \"5\";}\nfunction b(){echo \"4\";}\na();b();\nwhat is the output of the code?",
+      "options": ["Error", "54", "200", "45"],
+      "correct": "B"
+    },
+    {
+      "question": "_______ is used to retain the values calls to the same function.",
+      "options": ["Local variables", "Dynamic variables", "Global variables", "Static variables"],
+      "correct": "D"
+    },
+    {
+      "question": "To gain access to a variable that is outside from the function we use the global keyword.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "What is the keyword use to gain access a variable that is outside of the function?",
+      "options": ["Global", "Call", "Default", "Overall"],
+      "correct": "A"
+    },
+    {
+      "question": "function a($a,$b){\nreturn $a+$b;\n}\necho a(5,4);\nwhat is the output of the code?",
+      "options": ["4", "5", "Error", "9"],
+      "correct": "D"
+    },
+    {
+      "question": "This takes an argument of any type and prints it out, which includes printing all its parts recursively.",
+      "options": ["print_c()", "print_p()", "print_a()", "print_r()"],
+      "correct": "D"
+    },
+    {
+      "question": "specify an array expression within a set of parenthesis following the foreach keyword.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "$a[]=\"mango\";\n$a[]=\"apple\";\n$a[]=\"banana\";\nCheck the code if valid or invalid?",
+      "options": ["Valid", "Invalid"],
+      "correct": "A"
+    },
+    {
+      "question": "In some scripts, a file might be included more than once, causing function redefinitions, variable reassignments, and other possible problems.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Format character for ISO-8601 numeric representation of the day of the week (added in PHP 5.1.0)",
+      "options": ["N", "W", "C", "R"],
+      "correct": "A"
+    },
+    {
+      "question": "$x = floor(5.2);echo $x;\nWhat is the output?",
+      "options": ["Error", "5", "6", "Blank"],
+      "correct": "B"
+    },
+    {
+      "question": "Syntax that used to format a local time and date",
+      "options": ["string time_date(string $format [, int $timestamp = time() ]))", "string date_time(string $format [, int $timestamp = time() ]))", "string time string $format [, int $timestamp = time() ]) ()", "string date(string $format [, int $timestamp = time() ])"],
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following is not part of function for array manipulation",
+      "options": ["Explode", "Destroy", "Unset", "Implode"],
+      "correct": "B"
+    },
+    {
+      "question": "Syntax for include once",
+      "options": ["Include_once(filename.inc);", "filename(\"include_once\");", "Include_once(\"filename.inc\");", "Include_once(filename.php);"],
+      "correct": "C"
+    },
+    {
+      "question": "strip white spaces or other characters form the end of a string.",
+      "options": ["btrim()", "ctrim()", "rtrim()", "strim()"],
+      "correct": "C"
+    },
+    {
+      "question": "$x = ceil(5.2);echo $x;\nWhat is the output?",
+      "options": ["5", "Blank", "Error", "6"],
+      "correct": "D"
+    },
+    {
+      "question": "it is required to create a function name for a function",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "What do you call a function inside of a function",
+      "options": ["Function fun", "Nested function", "Double function", "Loop function"],
+      "correct": "B"
+    },
+    {
+      "question": "Using foreach statement you can display both the keys and value of each element in the array.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Syntax for foreach",
+      "options": ["foreach($value){}", "foreach{}($arr as $value)", "foreach($arr){}", "foreach($arr as $value){}"],
+      "correct": "D"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "subject": "Kotlin",
+  "formative": "formative3",
+  "questions": [
+    {
+      "question": "Which of the following functions is declared with the following requirements: accepts 2 integer-type arguments, returns an integer-type value?",
+      "options": [
+        "fun myFunction(int: arg1, Int: arg2): Int",
+        "fun myFunction(int: arg1, int: arg2): int",
+        "fun myFunction(arg1: int, arg2: int): int",
+        "fun myFunction(arg1: Int, arg2: Int): Int"
+      ],
+      "correct": "D"
+    },
+    {
+      "question": "What keyword is used to declare a function in Kotlin?",
+      "options": ["fnc", "fx", "func", "fun"],
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following is the correct form of how function parameters are defined?",
+      "options": ["type: name", "type name", "name type", "name: type"],
+      "correct": "D"
+    },
+    {
+      "question": "In Kotlin, Functions can be declared inside other functions.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Kotlin can infer return types of functions with block bodies.",
+      "options": ["True", "False (does not infer)"],
+      "correct": "B"
+    },
+    {
+      "question": "Curly braces is no longer need when writing a single-expression function.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "What notation is used when calling member functions in Kotlin?",
+      "options": ["underscore notation", "association notation", "comma notation", "dot notation"],
+      "correct": "D"
+    },
+    {
+      "question": "Functions in Kotlin can have variable number of arguments.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "In Kotlin, there is no need to explicitly define the data type of function parameters.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "What is the type of the returned value if a function is declared without specifying its return type?",
+      "options": ["Unit", "Null", "Void", "Empty"],
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following programs will run and will print the sum of 2 numbers?",
+      "options": [
+        "fun myFunction(int: arg1, Int: arg2): Int{ return arg1 + arg2 } fun main(){ println(myFunction(6,3)) }",
+        "fun myFunction(args1: Int, arg2: Int): Int{ return arg1 + arg2 } fun main(){ println(myFunction(6,3)) }",
+        "fun myFunction(int: arg1, int: arg2): Int{ return arg1 + arg2 } fun main(){ println(myFunction(6,3)) }",
+        "fun myFunction(args1: Int, arg2: Int): Int{ return arg1 + arg2 } fun main(){ println(myFunction(6,3)) }"
+      ],
+      "correct": "A"
+    },
+    {
+      "question": "The order of the arguments can be changed when naming arguments in a function call.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Tail recursive functions are marked with the tailrec modifier.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "What happens if the code below is executed? fun myFunction(age:Int=0,name:String){ println(\"Hi,$name.Youare$ageyearsold.\") } fun main(){ myFunction(name=\"Joseph\") }",
+      "options": [
+        "Error, too few arguments.",
+        "Error, function definition is not correct.",
+        "Will execute but will not print anything.",
+        "Will print: Hi, Joseph. You are 0 years old."
+      ],
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following statements is NOT true pertaining to the given code? fun myFunction(n1:Double,n2:Double=0.0)=Math.pow(n1,n2) fun main(){ println(myFunction(7.0)) }",
+      "options": [
+        "It will uses a single-expression form of function definition",
+        "The function call needs to be edited so that two values will be supplied.",
+        "The inferred return type is Double",
+        "It will execute and print 1.0"
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "We use the fun keyword to declare a function.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following programs prints the correct circumference of a circle?",
+      "options": [
+        "fun circumf(radius: Int): Int{ val pi = 3.1415 return 2 * pi * radius } fun main(){ println(circumf(6)) }",
+        "fun circumf(radius: Int): Double{ val pi = 3.1415 return 2 * pi * radius } fun main(){ println(circumf(9)) }",
+        "fun circumf(radius: Int){ val pi = 3.1415 return 2 * pi * radius } fun main(){ println(circumf(6)) }",
+        "fun circumf(radius: Double): Int{ val pi = 3.1415 return 2 * pi * radius } fun main(){ println(circumf(6)) }"
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "You can skip an argument if it has a default value when calling a function.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "You can declare function parameters in separate lines using trailing commas.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "You can only use the vararg keyword to the last parameter of a function.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "If a function does not return any type of value, its return type is Void.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "We can omit the dot and parenthesis when calling functions that are marked with the infix keyword.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "When overriding methods with default parameter values, you must specify a new default value for the parameters.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "In Kotlin, function parameters are defined using the ______ notation.",
+      "options": ["Pascal", "Babbage", "D. Napier", "Jacquard"],
+      "correct": "A"
+    },
+    {
+      "question": "A lambda expression is always surrounded by parenthesis.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "To be eligible for the tailrec modifier, a function must call itself as the last operation it performs.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "To declare a function with variable number of arguments, we use the keyword varargs.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Analyze the code below: fun myFunction(age:Int = 0, name: String, gender: String){ println(\"Hi, $name. You are a $gender and $age years old.\") } fun main() { myFunction(gender = \"male\", name = \"Joseph\", age = 18) }",
+      "options": [
+        "Will execute but will not print anything.",
+        "Error, function call is invalid.",
+        "Will print: Hi, Joseph. You are a male and 18 years old.",
+        "Error, arguments are not supplied in order."
+      ],
+      "correct": "C"
+    },
+    {
+      "question": "If the return type of a function is Unit, the returned value must be returned explicitly.",
+      "options": ["True", "False"],
+      "correct": "B"
+    },
+    {
+      "question": "Only one function parameter can be marked with the vararg keyword.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Functions in Kotlin can be declared without giving it a name.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Functions in Kotlin can be assigned to variables.",
+      "options": ["True", "False"],
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following function declarations defines its default parameters correctly?",
+      "options": [
+        "fun myFunction(arg1:Int = 10: Int, arg2: Double = 6.19: Double)",
+        "fun myFunction(arg1 = 10: Int, arg2 = 6.19: Double)",
+        "fun myFunction(arg1: Int = 10, arg2: Double = 6.19)",
+        "fun myFunction(arg1: = 10, arg2: = 6.19)"
+      ],
+      "correct": "C"
+    }
+  ]
+}
